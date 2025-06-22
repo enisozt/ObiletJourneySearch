@@ -1,0 +1,97 @@
+﻿@using ObiletJourneySearch.Models.ViewModels
+@using System.Text.Json
+@model JourneyViewModel
+
+@{
+    ViewData["Title"] = "Sefer Listesi";
+}
+
+<link href="~/css/Journey.css" rel="stylesheet" />
+
+<div class="journey-page">
+    <div class="journey-summary">
+        <h1>@Model.OriginName → @Model.DestinationName</h1>
+        <p class="journey-date">@Model.DepartureDate.ToString("dddd, dd MMMM yyyy")</p>
+    </div>
+
+    <div class="back-button">
+        <a href="/Home/Index?originId=@Model.OriginId&destinationId=@Model.DestinationId&departureDate=@Model.DepartureDate.ToString("yyyy-MM-dd")" class="btn-back">
+            ← Yeni Arama Yap
+        </a>
+    </div>
+
+    <div class="journey-container">
+        @if (Model.Journeys == null || !Model.Journeys.Any())
+        {
+            <p>Uygun sefer bulunamadı.</p>
+        }
+        else
+        {
+            @foreach (var item in Model.Journeys)
+            {
+                var departure = DateTime.Parse(item.Journey.Departure);
+                var arrival = DateTime.Parse(item.Journey.Arrival);
+
+                var json = JsonSerializer.Serialize(item, new JsonSerializerOptions { PropertyNamingPolicy = null });
+
+                <div class="journey-card" data-json='@json'>
+                    <div class="journey-header">
+                        <span class="company-name">@item.PartnerName</span>
+                        <span class="bus-type">@item.BusType</span>
+                    </div>
+                    <div class="journey-body">
+                        <div class="time-info">
+                            <span><strong>@departure.ToString("HH:mm")</strong></span>
+                            →
+                            <span><strong>@arrival.ToString("HH:mm")</strong></span>
+                        </div>
+                        <div class="price-info">
+                            <span class="price">@($"{item.Journey.Price:F2} {item.Journey.Currency}")</span>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>
+
+<!-- Modal -->
+<div id="journeyModal" class="modal-overlay" style="display:none;">
+    <div class="modal-content">
+        <span class="close-btn" onclick="closeModal()">×</span>
+        <h2>Sefer Detayı</h2>
+        <div id="modalBody"></div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const cards = document.querySelectorAll(".journey-card");
+        cards.forEach(card => {
+            card.addEventListener("click", function () {
+                const data = JSON.parse(this.getAttribute("data-json"));
+                const modal = document.getElementById("journeyModal");
+                const body = document.getElementById("modalBody");
+
+                const departure = new Date(data.journey.departure).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+                const arrival = new Date(data.journey.arrival).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+
+                body.innerHTML = `
+                    <p><strong>Firma:</strong> ${data["partner-name"]}</p>
+                    <p><strong>Otobüs Tipi:</strong> ${data["bus-type-name"]}</p>
+                    <p><strong>Kalkış:</strong> ${departure}</p>
+                    <p><strong>Varış:</strong> ${arrival}</p>
+                    <p><strong>Fiyat:</strong> ${data.journey["internet-price"]} ${data.journey.currency}</p>
+                    <p><strong>Süre:</strong> ${data.journey.duration}</p>
+                    <p><strong>Özellikler:</strong> ${(data.journey.features || []).join(", ")}</p>
+                `;
+
+                modal.style.display = "flex";
+            });
+        });
+    });
+
+    function closeModal() {
+        document.getElementById("journeyModal").style.display = "none";
+    }
+</script>

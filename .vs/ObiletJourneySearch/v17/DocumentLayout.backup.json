@@ -1,0 +1,247 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ensoz\\source\\repos\\ObiletJourneySearch\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{62C857B5-9615-46B4-AA1C-1A5EA1C1BC24}|ObiletJourneySearch\\ObiletJourneySearch.csproj|c:\\users\\ensoz\\source\\repos\\obiletjourneysearch\\obiletjourneysearch\\policies\\pollypolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62C857B5-9615-46B4-AA1C-1A5EA1C1BC24}|ObiletJourneySearch\\ObiletJourneySearch.csproj|solutionrelative:obiletjourneysearch\\policies\\pollypolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62C857B5-9615-46B4-AA1C-1A5EA1C1BC24}|ObiletJourneySearch\\ObiletJourneySearch.csproj|c:\\users\\ensoz\\source\\repos\\obiletjourneysearch\\obiletjourneysearch\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62C857B5-9615-46B4-AA1C-1A5EA1C1BC24}|ObiletJourneySearch\\ObiletJourneySearch.csproj|solutionrelative:obiletjourneysearch\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62C857B5-9615-46B4-AA1C-1A5EA1C1BC24}|ObiletJourneySearch\\ObiletJourneySearch.csproj|c:\\users\\ensoz\\source\\repos\\obiletjourneysearch\\obiletjourneysearch\\handlers\\httpclientmetricshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62C857B5-9615-46B4-AA1C-1A5EA1C1BC24}|ObiletJourneySearch\\ObiletJourneySearch.csproj|solutionrelative:obiletjourneysearch\\handlers\\httpclientmetricshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62C857B5-9615-46B4-AA1C-1A5EA1C1BC24}|ObiletJourneySearch\\ObiletJourneySearch.csproj|c:\\users\\ensoz\\source\\repos\\obiletjourneysearch\\obiletjourneysearch\\handlers\\errorloghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62C857B5-9615-46B4-AA1C-1A5EA1C1BC24}|ObiletJourneySearch\\ObiletJourneySearch.csproj|solutionrelative:obiletjourneysearch\\handlers\\errorloghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62C857B5-9615-46B4-AA1C-1A5EA1C1BC24}|ObiletJourneySearch\\ObiletJourneySearch.csproj|c:\\users\\ensoz\\source\\repos\\obiletjourneysearch\\obiletjourneysearch\\extensions\\httpclientconfigextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62C857B5-9615-46B4-AA1C-1A5EA1C1BC24}|ObiletJourneySearch\\ObiletJourneySearch.csproj|solutionrelative:obiletjourneysearch\\extensions\\httpclientconfigextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62C857B5-9615-46B4-AA1C-1A5EA1C1BC24}|ObiletJourneySearch\\ObiletJourneySearch.csproj|c:\\users\\ensoz\\source\\repos\\obiletjourneysearch\\obiletjourneysearch\\controllers\\journeycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62C857B5-9615-46B4-AA1C-1A5EA1C1BC24}|ObiletJourneySearch\\ObiletJourneySearch.csproj|solutionrelative:obiletjourneysearch\\controllers\\journeycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62C857B5-9615-46B4-AA1C-1A5EA1C1BC24}|ObiletJourneySearch\\ObiletJourneySearch.csproj|c:\\users\\ensoz\\source\\repos\\obiletjourneysearch\\obiletjourneysearch\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62C857B5-9615-46B4-AA1C-1A5EA1C1BC24}|ObiletJourneySearch\\ObiletJourneySearch.csproj|solutionrelative:obiletjourneysearch\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62C857B5-9615-46B4-AA1C-1A5EA1C1BC24}|ObiletJourneySearch\\ObiletJourneySearch.csproj|c:\\users\\ensoz\\source\\repos\\obiletjourneysearch\\obiletjourneysearch\\apiclients\\concrete\\obiletapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62C857B5-9615-46B4-AA1C-1A5EA1C1BC24}|ObiletJourneySearch\\ObiletJourneySearch.csproj|solutionrelative:obiletjourneysearch\\apiclients\\concrete\\obiletapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62C857B5-9615-46B4-AA1C-1A5EA1C1BC24}|ObiletJourneySearch\\ObiletJourneySearch.csproj|c:\\users\\ensoz\\source\\repos\\obiletjourneysearch\\obiletjourneysearch\\services\\concrete\\obiletservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62C857B5-9615-46B4-AA1C-1A5EA1C1BC24}|ObiletJourneySearch\\ObiletJourneySearch.csproj|solutionrelative:obiletjourneysearch\\services\\concrete\\obiletservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62C857B5-9615-46B4-AA1C-1A5EA1C1BC24}|ObiletJourneySearch\\ObiletJourneySearch.csproj|c:\\users\\ensoz\\source\\repos\\obiletjourneysearch\\obiletjourneysearch\\services\\abstract\\iobiletservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62C857B5-9615-46B4-AA1C-1A5EA1C1BC24}|ObiletJourneySearch\\ObiletJourneySearch.csproj|solutionrelative:obiletjourneysearch\\services\\abstract\\iobiletservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62C857B5-9615-46B4-AA1C-1A5EA1C1BC24}|ObiletJourneySearch\\ObiletJourneySearch.csproj|c:\\users\\ensoz\\source\\repos\\obiletjourneysearch\\obiletjourneysearch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62C857B5-9615-46B4-AA1C-1A5EA1C1BC24}|ObiletJourneySearch\\ObiletJourneySearch.csproj|solutionrelative:obiletjourneysearch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62C857B5-9615-46B4-AA1C-1A5EA1C1BC24}|ObiletJourneySearch\\ObiletJourneySearch.csproj|c:\\users\\ensoz\\source\\repos\\obiletjourneysearch\\obiletjourneysearch\\apiclients\\abstract\\iobiletapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62C857B5-9615-46B4-AA1C-1A5EA1C1BC24}|ObiletJourneySearch\\ObiletJourneySearch.csproj|solutionrelative:obiletjourneysearch\\apiclients\\abstract\\iobiletapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ObiletService.cs",
+              "DocumentMoniker": "C:\\Users\\ensoz\\source\\repos\\ObiletJourneySearch\\ObiletJourneySearch\\Services\\Concrete\\ObiletService.cs",
+              "RelativeDocumentMoniker": "ObiletJourneySearch\\Services\\Concrete\\ObiletService.cs",
+              "ToolTip": "C:\\Users\\ensoz\\source\\repos\\ObiletJourneySearch\\ObiletJourneySearch\\Services\\Concrete\\ObiletService.cs",
+              "RelativeToolTip": "ObiletJourneySearch\\Services\\Concrete\\ObiletService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T15:37:50.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ensoz\\source\\repos\\ObiletJourneySearch\\ObiletJourneySearch\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ObiletJourneySearch\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\ensoz\\source\\repos\\ObiletJourneySearch\\ObiletJourneySearch\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "ObiletJourneySearch\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T15:37:35.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HttpClientMetricsHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ensoz\\source\\repos\\ObiletJourneySearch\\ObiletJourneySearch\\Handlers\\HttpClientMetricsHandler.cs",
+              "RelativeDocumentMoniker": "ObiletJourneySearch\\Handlers\\HttpClientMetricsHandler.cs",
+              "ToolTip": "C:\\Users\\ensoz\\source\\repos\\ObiletJourneySearch\\ObiletJourneySearch\\Handlers\\HttpClientMetricsHandler.cs",
+              "RelativeToolTip": "ObiletJourneySearch\\Handlers\\HttpClientMetricsHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T15:37:06.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ErrorLogHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ensoz\\source\\repos\\ObiletJourneySearch\\ObiletJourneySearch\\Handlers\\ErrorLogHandler.cs",
+              "RelativeDocumentMoniker": "ObiletJourneySearch\\Handlers\\ErrorLogHandler.cs",
+              "ToolTip": "C:\\Users\\ensoz\\source\\repos\\ObiletJourneySearch\\ObiletJourneySearch\\Handlers\\ErrorLogHandler.cs",
+              "RelativeToolTip": "ObiletJourneySearch\\Handlers\\ErrorLogHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T15:36:26.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HttpClientConfigExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\ensoz\\source\\repos\\ObiletJourneySearch\\ObiletJourneySearch\\Extensions\\HttpClientConfigExtensions.cs",
+              "RelativeDocumentMoniker": "ObiletJourneySearch\\Extensions\\HttpClientConfigExtensions.cs",
+              "ToolTip": "C:\\Users\\ensoz\\source\\repos\\ObiletJourneySearch\\ObiletJourneySearch\\Extensions\\HttpClientConfigExtensions.cs",
+              "RelativeToolTip": "ObiletJourneySearch\\Extensions\\HttpClientConfigExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T15:36:16.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ObiletApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\ensoz\\source\\repos\\ObiletJourneySearch\\ObiletJourneySearch\\ApiClients\\Concrete\\ObiletApiClient.cs",
+              "RelativeDocumentMoniker": "ObiletJourneySearch\\ApiClients\\Concrete\\ObiletApiClient.cs",
+              "ToolTip": "C:\\Users\\ensoz\\source\\repos\\ObiletJourneySearch\\ObiletJourneySearch\\ApiClients\\Concrete\\ObiletApiClient.cs",
+              "RelativeToolTip": "ObiletJourneySearch\\ApiClients\\Concrete\\ObiletApiClient.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwC8AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T15:35:59.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ensoz\\source\\repos\\ObiletJourneySearch\\ObiletJourneySearch\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ObiletJourneySearch\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ensoz\\source\\repos\\ObiletJourneySearch\\ObiletJourneySearch\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ObiletJourneySearch\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T15:36:08.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JourneyController.cs",
+              "DocumentMoniker": "C:\\Users\\ensoz\\source\\repos\\ObiletJourneySearch\\ObiletJourneySearch\\Controllers\\JourneyController.cs",
+              "RelativeDocumentMoniker": "ObiletJourneySearch\\Controllers\\JourneyController.cs",
+              "ToolTip": "C:\\Users\\ensoz\\source\\repos\\ObiletJourneySearch\\ObiletJourneySearch\\Controllers\\JourneyController.cs",
+              "RelativeToolTip": "ObiletJourneySearch\\Controllers\\JourneyController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T15:36:11.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PollyPolicy.cs",
+              "DocumentMoniker": "C:\\Users\\ensoz\\source\\repos\\ObiletJourneySearch\\ObiletJourneySearch\\Policies\\PollyPolicy.cs",
+              "RelativeDocumentMoniker": "ObiletJourneySearch\\Policies\\PollyPolicy.cs",
+              "ToolTip": "C:\\Users\\ensoz\\source\\repos\\ObiletJourneySearch\\ObiletJourneySearch\\Policies\\PollyPolicy.cs",
+              "RelativeToolTip": "ObiletJourneySearch\\Policies\\PollyPolicy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T15:38:23.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IObiletApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\ensoz\\source\\repos\\ObiletJourneySearch\\ObiletJourneySearch\\ApiClients\\Abstract\\IObiletApiClient.cs",
+              "RelativeDocumentMoniker": "ObiletJourneySearch\\ApiClients\\Abstract\\IObiletApiClient.cs",
+              "ToolTip": "C:\\Users\\ensoz\\source\\repos\\ObiletJourneySearch\\ObiletJourneySearch\\ApiClients\\Abstract\\IObiletApiClient.cs",
+              "RelativeToolTip": "ObiletJourneySearch\\ApiClients\\Abstract\\IObiletApiClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T15:35:57.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ensoz\\source\\repos\\ObiletJourneySearch\\ObiletJourneySearch\\Program.cs",
+              "RelativeDocumentMoniker": "ObiletJourneySearch\\Program.cs",
+              "ToolTip": "C:\\Users\\ensoz\\source\\repos\\ObiletJourneySearch\\ObiletJourneySearch\\Program.cs",
+              "RelativeToolTip": "ObiletJourneySearch\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T15:38:50.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IObiletService.cs",
+              "DocumentMoniker": "C:\\Users\\ensoz\\source\\repos\\ObiletJourneySearch\\ObiletJourneySearch\\Services\\Abstract\\IObiletService.cs",
+              "RelativeDocumentMoniker": "ObiletJourneySearch\\Services\\Abstract\\IObiletService.cs",
+              "ToolTip": "C:\\Users\\ensoz\\source\\repos\\ObiletJourneySearch\\ObiletJourneySearch\\Services\\Abstract\\IObiletService.cs",
+              "RelativeToolTip": "ObiletJourneySearch\\Services\\Abstract\\IObiletService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T15:40:06.307Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1025,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

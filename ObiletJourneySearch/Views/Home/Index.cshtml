@@ -1,0 +1,145 @@
+﻿@using ObiletJourneySearch.Models.ViewModels
+@model IndexViewModel
+
+@{
+    ViewData["Title"] = "Otobüs Bileti Ara";
+}
+
+<link href="~/css/site.css" rel="stylesheet" />
+
+<div class="search-wrapper">
+    <div class="search-card">
+        <h1>Sefer Ara</h1>
+
+        <form id="searchForm" method="get" action="/Journey/Index">
+
+            <div class="form-group">
+                <label for="originId">Kalkış Noktası</label>
+
+                <select id="originId" name="originId" required>
+                    <option value="" selected="@(Model.SelectedOriginId == null ? "selected" : null)">Seçiniz</option>
+                    @foreach (var loc in Model.Locations)
+                    {
+                        <option value="@loc.Id" selected="@(loc.Id == Model.SelectedOriginId ? "selected" : null)">@loc.Name</option>
+                    }
+                </select>
+
+                @*<select id="originId" name="originId" required>
+                    <option value="">Seçiniz</option>
+                    @foreach (var loc in Model.Locations)
+                    {
+                        var selected = loc.Id == Model.SelectedOriginId ? "selected" : "";
+                        <option value="@loc.Id" selected="@selected">@loc.Name</option>
+                    }
+                </select> *@
+            </div>
+
+            <div class="switch-cities" style="text-align:right">
+                <button type="button" onclick="swapCities()">🔁</button>
+            </div>
+
+            <div class="form-group">
+                <label for="destinationId">Varış Noktası</label>
+
+                <select id="destinationId" name="destinationId" required>
+                    <option value="" selected="@(Model.SelectedDestinationId == null ? "selected" : null)">Seçiniz</option>
+                    @foreach (var loc in Model.Locations)
+                    {
+                        <option value="@loc.Id" selected="@(loc.Id == Model.SelectedDestinationId ? "selected" : null)">@loc.Name</option>
+                    }
+                </select>
+
+@*                 <select id="destinationId" name="destinationId" required>
+                    <option value="">Seçiniz</option>
+                    @foreach (var loc in Model.Locations)
+                    {
+                        var selected = loc.Id == Model.SelectedDestinationId ? "selected" : "";
+                        <option value="@loc.Id" selected="@selected">@loc.Name</option>
+                    }
+                </select> *@
+            </div>
+
+
+
+            <div class="form-group">
+                <label for="departureDate">Tarih</label>
+                <input type="date" id="departureDate" name="departureDate"
+                       value="@Model.SelectedDate.ToString("yyyy-MM-dd")"
+                       min="@DateTime.Today.ToString("yyyy-MM-dd")" required />
+
+                <div class="date-buttons">
+                    <button type="button" onclick="setToday()">Bugün</button>
+                    <button type="button" onclick="setTomorrow()">Yarın</button>
+                </div>
+            </div>
+
+            <button type="submit" class="btn-search">Seferleri Listele</button>
+
+            <br /><br />
+            <div class="error-container">
+                <span id="errorMessage" class="error" style="color:red"></span>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<script>
+    function setToday() {
+        const today = new Date().toISOString().split('T')[0];
+        document.getElementById("departureDate").value = today;
+    }
+
+    function setTomorrow() {
+        const tmr = new Date();
+        tmr.setDate(tmr.getDate() + 1);
+        const tomorrow = tmr.toISOString().split('T')[0];
+        document.getElementById("departureDate").value = tomorrow;
+    }
+
+    function swapCities() {
+        const origin = document.getElementById("originId");
+        const destination = document.getElementById("destinationId");
+
+        const temp = origin.value;
+        origin.value = destination.value;
+        destination.value = temp;
+    }
+
+      document.addEventListener("DOMContentLoaded", function () {
+
+        const form = document.getElementById("searchForm");
+        const originSelect = document.getElementById("originId");
+        const destinationSelect = document.getElementById("destinationId");
+        const dateInput = document.getElementById("departureDate");
+        const error = document.getElementById("errorMessage");
+
+        // localStorage'dan veri oku ve inputlara yaz
+        const storedOrigin = localStorage.getItem("originId");
+        const storedDest = localStorage.getItem("destinationId");
+        const storedDate = localStorage.getItem("departureDate");
+
+        if (storedOrigin) originSelect.value = storedOrigin;
+        if (storedDest) destinationSelect.value = storedDest;
+        if (storedDate) dateInput.value = storedDate;
+
+        form.addEventListener("submit", function (e) {
+            const origin = originSelect.value;
+            const destination = destinationSelect.value;
+            const date = dateInput.value;
+
+            if (origin === destination) {
+                e.preventDefault();
+                error.textContent = "Kalkış ve varış şehirleri aynı olamaz!";
+                return;
+            }
+
+            // Hata yoksa verileri localStorage'a kaydet
+            localStorage.setItem("originId", origin);
+            localStorage.setItem("destinationId", destination);
+            localStorage.setItem("departureDate", date);
+
+            error.textContent = ""; // hata temizle
+        });
+    });
+</script>
