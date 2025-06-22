@@ -34,6 +34,7 @@ namespace ObiletJourneySearch.Extensions
             services.AddScoped<IObiletService, ObiletService>();
             services.AddTransient<ErrorLogHandler>();
             services.AddTransient<HttpClientMetricsHandler>();
+            services.AddScoped<ICacheService, MemoryCacheService>();
 
             services.AddMemoryCache();
 
